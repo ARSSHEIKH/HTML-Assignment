@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Chapter # 7 Forms</title>
+    </head>
+
+    <body>
+        <h2>Chapter # 7 Forms</h2>
+        <fieldset>
+            <legend>Your Details: </legend>
+        <form>
+            <label>Name: </label>
+            <input type="text" name="name" maxlength="30" size="20">
+            <br><br>
+            <label>Email: </label>
+            <input type="email" name="email" maxlength="20" size="20">
+        </form>
+    </fieldset>
+        <fieldset>
+            <legend>Your Review: </legend>   
+            <form>
+                <label for="checked"> How did you hear about us? </label>
+                <select name="" id="">
+                    <option value="">Google</option>
+                    <option value="">Facebook</option>
+                    <option value="">Twitter</option>
+                </select>
+
+                <p>Would you visit again: </p>
+                <label><input type="radio" name="visit"> Yes </input></label>             
+                <input id="No" type="radio" name="visit"/>
+                <label for="No">No</label>
+                <label><input type="radio" name="visit" checked> Maybe </input></label>
+                
+                <p> Comments: </p>
+                <textarea name="commments" id="" cols="30" rows="4"></textarea>
+                <br>
+
+                <input type="checkbox" checked/>
+                Sign me up for email updates
+                <br>
+
+                <input type="submit" value=" Submit Review"/>
+            </form>
+        </fieldset>
+    </body>
+</html>
